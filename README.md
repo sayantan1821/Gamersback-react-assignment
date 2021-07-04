@@ -4,4 +4,4 @@
 
 ## Welcome! 👋
 
-Website link : https://sayantan1821.github.io/Gamersback-Assignmrnt/
+Website link : https://blissful-mirzakhani-f1a516.netlify.app/
