@@ -1,0 +1,97 @@
+body {
+    background-color:	#090b1a;
+}
+.card {
+    width: 50vw;
+    height: 50vh;
+    background-color: hsl(258deg 46% 26%);
+    margin: 20vh auto;
+    display: flex;
+    border-radius: 5px;
+}
+.card-txt {
+    padding: 5% 7%;
+}
+.card-txt h1 {
+    color: #fff;
+    font-size: 3vh;
+    margin-bottom: 10%;
+    font-family: 'Inter', sans-serif;
+}
+.card-txt span {
+    color: hsl(277, 64%, 61%);
+}
+.card-txt p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 2vh;
+}
+.card-img {
+    width: 74vw;
+   
+    background-size: cover;
+    border-radius: 0 5px 5px 0;
+    background-image: linear-gradient(#aa5cdb8f,	#aa5cdb8f), url(../images/image-header-desktop.jpg);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.footer h1 {
+    font-size: 3vh;
+    margin-bottom: -6%;
+}
+.footer p {
+    font-size: 1.5vh;
+}
+.attribution {
+    color: gray;
+}
+.attribution a {
+    color: #fff;
+    text-decoration: none;
+}
+@media only screen and (max-width: 375px) {
+    .card {
+        height: 100vh;
+        width: 90vw;
+        display: flexbox;
+        flex-direction: column;
+        margin: 10vh auto;
+        border-radius: 10px;
+    }
+    .card-txt {
+        padding: 7% 7%;
+        position: absolute;
+        bottom: -12vh;
+        text-align: center;
+    }
+    .card-txt h1 {
+        font-size: 1.8rem;
+        margin-bottom: 5%;
+    }
+    .card-txt p {
+        margin-top: 4%;
+    }
+    .card-img {
+        display: flex;
+        align-self: flex-start;
+        height: 30vh;
+        width: 90vw;
+        border-radius: 5px 5px 0 0;
+        background-image: linear-gradient(#aa5cdb8f, #aa5cdb8f), url(../images/image-header-mobile.jpg);
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer h1 {
+        font-size: 1rem;
+    }
+    .footer p {
+        margin-bottom: 5%;
+    }
+    .attribution span {
+        font-size: 0.7rem;
+    }
+  }
