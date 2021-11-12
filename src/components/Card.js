@@ -29,5 +29,6 @@ function Card() {
         </div>
     )
 }
+//update card.js
 
 export default Card
